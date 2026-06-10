@@ -67,40 +67,15 @@ nav{
 }
 .hero {
     height: 100vh;
-    background-image: url('image/pr1.jpg'); /* Default image */
+    background-image: url('image/pr1.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    animation: slideshow 25s infinite;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #2B0B7A;
-}
-
-@keyframes slideshow {
-    0%, 19.99% {
-        background-image: url('image/pr2.JPG');
-    }
-
-    20%, 39.99% {
-        background-image: url('image/pr1.jpg');
-    }
-
-    40%, 59.99% {
-        background-image: url('image/pr3.JPG')
-    }
-
-    60%, 79.99% {
-        background-image: url('image/pr4.JPG');
-    }
-
-    80%, 100% {
-        background-image: url('image/pr5.jpg');
-    }
-}
-
+    color: white;
 }
 
 .hero h1{
